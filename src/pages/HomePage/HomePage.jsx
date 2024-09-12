@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { requestAllMovies } from "../../services/api";
 import MovieList from "../../components/MovieList/MovieList";
 import Loader from "../../components/Loader/Loader";
+import css from "./HomePage.module.css";
 
 const HomePage = () => {
   const [trendMovies, setTrendsMovies] = useState([]);
@@ -24,8 +25,8 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Trending today</h1>
+    <div className={css.container}>
+      <h1 className={css.title}>Trending today</h1>
       {isLoading && <Loader />}
       {error && (
         <p style={{ color: "red" }}>{error}! Please, try again later!</p>

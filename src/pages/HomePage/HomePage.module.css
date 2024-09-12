@@ -1,0 +1,10 @@
+.title {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #00609c;
+  margin-bottom: 15px;
+}
+.container {
+  max-width: 1200px;
+  padding: 15px 30px;
+}

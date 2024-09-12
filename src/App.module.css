@@ -1,0 +1,7 @@
+.header {
+  width: 100wh;
+  padding: 15px 30px;
+  margin: 0 auto 20px auto;
+  background-color: rgba(39, 110, 168, 0.7);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}

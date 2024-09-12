@@ -1,0 +1,11 @@
+.movieList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.movieTitle {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #5fa8f5;
+}
