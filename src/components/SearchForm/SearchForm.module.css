@@ -1,0 +1,32 @@
+.form {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.inputWrapper {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.input {
+  padding-right: 40px;
+  width: 400px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
